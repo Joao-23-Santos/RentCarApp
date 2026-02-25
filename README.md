@@ -1,17 +1,9 @@
 # Sistema de Aluguer de Veículos
 Uma aplicação de desktop desenvolvida em Java com Swing para gerir aluguer de veículos. O sistema permite administrar veículos, clientes, colaboradores e alugueres com uma interface gráfica intuitiva.
+Esta aplicação tem como intuito ajudar-me na compreensão de java, como uma simples biblioteca de GUI e a manipulação de informação entre a front-end e back-end.
+Para permitir maior facilidade optei por usar Maven para organização e estrutura deste projeto.
+A aplicação tem como funcionalidades criação de veiculos, fichas de clientes e colaboradores sendo a informação armazenada em ficheiros binarios.
+É possivel fazer pesquisa na lista dos carros, como também criar alugueres que são compostos por um veiculo, colaborador, cliente e as datas devidas de incio e fim do aluguer.
+Também é permitido a eliminação de qualquer informação de maneira intuitiva e eficaz.
+Mais funcionalidades vão ser adicionadas conforme o desenvolvimento da aplicação, mas por enquanto é tudo.
 
-Funcionalidades
-Gestão de Veículos: Adicionar, listar e remover veículos (Carros, Motas, Autocaravanas) com suporte a imagens e detalhes completos
-Gestão de Clientes: Criar, listar e eliminar perfis de clientes com informações pessoais e de contacto
-Gestão de Colaboradores: Administrar colaboradores do sistema de aluguer
-Sistema de Alugueres: Criar alugueres ligando veículos, clientes e colaboradores com datas de início e fim
-Preview de Imagens: Visualizar foto do veículo ao selecionar no combobox durante operações
-Pesquisa em Tempo Real: Filtrar veículos por marca com debounce
-Carregamento Assíncrono: Operações de I/O em background via SwingWorker para interface responsiva
-Cache de Imagens: Sistema inteligente de cache e carregamento assíncrono de imagens
-Tecnologias
-Linguagem: Java 11+
-UI Framework: Swing
-Build Tool: Maven
-Componentes: JDateChooser para seleção de datas, ImageLoader para gestão de imagens
